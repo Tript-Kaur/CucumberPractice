@@ -1,4 +1,4 @@
-/*
+
 package Steps;
 
 import cucumber.api.java.en.*;
@@ -10,7 +10,7 @@ public class LoginSteps1 {
     }
     @When("User enters UserName and Password in Fields")
     public void userEntersUserNameAndPasswordInFields() {
-        System.out.println("When");
+        System.out.println("When *********************");
     }
 
     @And("clicks on login Button")
@@ -25,4 +25,4 @@ public class LoginSteps1 {
     public void throwExceptionIncorrectCredentials() {  System.out.println("Then2");
     }
 }
-*/
+
